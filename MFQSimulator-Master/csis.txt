@@ -1,0 +1,48 @@
+
+				CPU	Total	Lowest
+		System		Time	Time In	Level
+Event		Time	PID	Needed	System	Queue
+
+Waiting		1
+Arrived		2	101	3
+Departure	5	101		3	2
+Waiting		6
+Arrived		7	102	1
+Departure	8	102		1	2
+Arrived		9	103	7
+Arrived		12	104	5
+Arrived		14	105	1
+Departure	15	105		1	2
+Arrived		17	106	1
+Arrived		18	107	50
+Departure	18	106		1	2
+Departure	23	104		11	3
+Arrived		24	108	2
+Departure	26	108		2	2
+Departure	28	103		19	4
+Arrived		34	109	12
+Arrived		37	110	3
+Departure	40	110		3	3
+Arrived		44	111	10
+Arrived		45	112	48
+Arrived		50	113	1
+Departure	51	113		1	2
+Arrived		56	114	1
+Departure	57	114		1	2
+Arrived		71	115	3
+Departure	74	115		3	3
+Departure	79	109		45	4
+Arrived		81	116	2
+Departure	83	116		2	2
+Departure	118	111		74	4
+Departure	152	112		107	4
+Departure	155	107		137	4
+
+
+Total Number of Jobs:		16
+Total Process Time:		150
+Total CPU Idle Time:		2
+Average Response Time:		0.0
+Average Turnaround Time:	25.6875
+Average Waiting Time:		16.3125
+Average Throughput:		0.10666667
